@@ -4,18 +4,47 @@
 Antes de avançar para a próxima aula, verifique se você consegue explicar:
 
     O que é um alfabeto Σ;
-    O que é uma cadeia;
-    O que significa ε;
-    Por que |ε| = 0;
-    O que é um prefixo;
-    O que é um sufixo;
-    O que significa Σ*;
-    Se Σ* possui limite de tamanho;
-    O que é uma linguagem formal L;
-    O que significa L ⊆ Σ*;
-    O que é uma gramática formal;
-    O que são terminais e não terminais;
-    O que é uma regra de produção;
-    Como ler S → aS | ε;
-    Como gerar palavras usando uma gramática.
+    Resposta: Um alfabeto Σ é um conjunto finito de símbolos (por exemplo, Σ = {a, b, 0, 1}).
 
+    O que é uma cadeia;
+    Resposta: Uma cadeia (ou palavra) é uma sequência finita de símbolos do alfabeto, por exemplo "abba".
+
+    O que significa ε;
+    Resposta: ε representa a cadeia vazia — a palavra que não contém símbolos.
+
+    Por que |ε| = 0;
+    Resposta: |w| denota o comprimento (número de símbolos) da cadeia w; como ε não tem símbolos, seu comprimento é 0.
+
+    O que é um prefixo;
+    Resposta: Um prefixo de uma cadeia w é qualquer sequência de símbolos que aparece no início de w. Ex.: para w = "abc", os prefixos são ε, "a", "ab", "abc".
+
+    O que é um sufixo;
+    Resposta: Um sufixo de uma cadeia w é qualquer sequência de símbolos que aparece no final de w. Ex.: para w = "abc", os sufixos são ε, "c", "bc", "abc".
+
+    O que significa Σ*;
+    Resposta: Σ* é o conjunto de todas as cadeias finitas (incluindo ε) construídas a partir dos símbolos de Σ.
+
+    Se Σ* possui limite de tamanho;
+    Resposta: Em geral Σ* é infinito se Σ contém pelo menos um símbolo (pois há cadeias de todos os comprimentos). Se Σ é vazio (Σ = ∅), então Σ* = {ε} e tem tamanho 1.
+
+    O que é uma linguagem formal L;
+    Resposta: Uma linguagem formal L é um conjunto (possivelmente infinito) de cadeias sobre um alfabeto Σ — L ⊆ Σ*.
+
+    O que significa L ⊆ Σ*;
+    Resposta: Significa que toda cadeia em L é formada por símbolos de Σ; ou seja, L é um subconjunto do conjunto de todas as cadeias sobre Σ.
+
+    O que é uma gramática formal;
+    Resposta: Uma gramática formal é uma quadrupla (V, Σ, R, S) onde V é o conjunto de variáveis (não-terminais), Σ é o alfabeto de terminais, R é o conjunto de regras de produção e S é o símbolo inicial.
+
+    O que são terminais e não terminais;
+    Resposta: Terminais são os símbolos que aparecem nas cadeias finais (símbolos "reais" do alfabeto). Não-terminais (ou variáveis) são símbolos usados durante a derivação para gerar cadeias, e são substituídos por outras cadeias por meio das regras.
+
+    O que é uma regra de produção;
+    Resposta: É uma regra do tipo A → α, onde A é um não-terminal e α é uma cadeia de terminais e/ou não-terminais; indica como substituir A durante a derivação.
+
+    Como ler S → aS | ε;
+    Resposta: "S produz aS ou ε" — a regra significa que a partir de S você pode substituir por "aS" ou pela cadeia vazia "ε".
+
+    Como gerar palavras usando uma gramática.
+    Resposta: Começa-se pelo símbolo inicial S e aplica-se regras de produção repetidamente, substituindo não-terminais até obter uma cadeia composta apenas por terminais. Exemplo com S → aS | ε:
+        S ⇒ aS ⇒ aaS ⇒ aaε = "aa" (aqui geramos a palavra "aa").
