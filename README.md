@@ -1,4 +1,4 @@
 # InteligenciaArtifical_LinguagensFormais_Automatos
-Atividades práticas da disciplina /n
-INTELIGÊNCIA ARTIFICIAL, LINGUAGENS FORMAIS E AUTÔMATOS /n
+Atividades práticas da disciplina 
+INTELIGÊNCIA ARTIFICIAL, LINGUAGENS FORMAIS E AUTÔMATOS 
 Deivid Cerqueira RGM 39670953
