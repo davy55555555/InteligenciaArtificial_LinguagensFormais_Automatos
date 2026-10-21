@@ -1,3 +1,17 @@
-## Exercicios Gramáticas Formais 17/08 _ último slide da Aula 03 Gramáticas Formais.
-## Exercicios Gramáticas Formais 24/08 _ Lista.md
-### Exercícios sobre AFD (Autômato Finito Determinístico) no JFLAP (31/08) - pendente, pois a aula foi de Revisão de Autômato. 
+# Exercícios Gramáticas Formais
+
+## Exercícios sobre gramáticas formais e AFDs
+
+### Exercício 1
+Revisar conceitos básicos de alfabeto, palavra e linguagem.
+
+### Exercício 2
+Aplicar regras de produção para derivar palavras e compreender operadores da linguagem formal.
+
+### Exercício 3
+Estudar autômatos finitos determinísticos com JFLAP.
+
+---
+
+## Observação
+Este material foi organizado para complementar as aulas de gramáticas formais e revisão de autômatos.

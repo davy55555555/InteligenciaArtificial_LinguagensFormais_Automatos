@@ -2,24 +2,32 @@
 
 Atividades práticas da disciplina "Inteligência Artificial, Linguagens Formais e Autômatos".
 
-Autor: Deivid Cerqueira  
-RGM: 39670953
+## Estrutura do repositório
 
-## Sobre
+- `InteligenciaArtificial/` — atividade de agentes inteligentes
+- `Automatos_Finitos_Deterministicos/` — modelos de AFDs e listas de exercícios
+- `Expressoes_Regulares/` — regex, tutoriais e evidências
+- `Maquinas_de_Turing/` — máquina de Turing e testes
+- `Unidade1_LinguagensFormais/` — conceitos iniciais de LFA
+- `Unidade2_GramaticasFormais/` — gramáticas formais e exercícios
 
-Este repositório reúne os exercícios e implementações práticas da disciplina, incluindo autômatos finitos, gramáticas formais, autômatos com pilha, máquinas de Turing e exemplos relacionados.
+## Colaboradores
 
-## Estrutura (exemplos)
+- Lucas Dórea Cardoso — 37277782
+- Deivid Cerqueira — 39670953
 
-- `automatos/` — implementações de autômatos
-- `gramaticas/` — exemplos e transformações de gramáticas
-- `tm/` — exemplos de máquinas de Turing
-- `notebooks/` — Jupyter notebooks com experimentos
+## Objetivo
 
-## Como contribuir
+Reunir materiais, exercícios, registros e entregas práticas da disciplina, mantendo uma base organizada para estudo e acompanhamento.
 
-Abra uma issue ou envie um pull request com melhorias ou correções.
+## Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+- Markdown
+- GitHub
 
 ## Licença
 
-Nenhuma licença especificada — adicione um arquivo LICENSE se desejar tornar este repositório open source.
+Este repositório foi criado para fins acadêmicos e de estudo.
